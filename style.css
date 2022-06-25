@@ -106,7 +106,24 @@ input:focus {
   border: 2px solid darkolivegreen;
   box-shadow: 0 0 10px #719ece;
 }
+#unmatched-pass {
+  padding: 0;
+  margin: 0;
+  font-size: 0.62rem;
+  color: red;
+  font-weight: 900;
+  position: absolute;
+  display: none;
+}
+
+.active {
+  display: block;
+}
 
 .already {
   margin-left: 20px;
+}
+
+.unmatched-pass-container {
+  position: relative;
 }
